@@ -1,0 +1,38 @@
+.nav-bar{
+
+    height: 60px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1rem;
+    
+}
+
+.list-container{
+
+    display: flex;
+    list-style: none;
+   
+
+}
+
+.list-style{
+
+    margin-right: 1rem;
+    border: 1px solid black;
+    padding: 0.5rem;
+    transition: 0.3s;
+    text-decoration: none;
+    color: black;
+}
+
+.list-style:hover{
+
+    background-color: rgb(218, 214, 214);
+}
+
+.h1-index{
+    text-decoration: none;
+    color: black;
+}

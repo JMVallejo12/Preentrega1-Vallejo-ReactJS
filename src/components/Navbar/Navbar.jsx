@@ -1,16 +1,19 @@
+// import { Link } from '@mui/material'
 import CartWidget from '../CartWidget/Cartwidget'
 import './Navbarstyle.css'
+import { Link } from 'react-router-dom'
+
 
 function Navbar(){
 
     return <div className="nav-bar">
         <ul className='logo-container'>
-            <h1><a href="" className='h1-index'>K-MANIA</a></h1>
+        <Link to="/" className='h1-index'><h1>K-MANIA</h1></Link>
         </ul>
         <ul className="list-container">
-            <li><a href="" className='list-style'>COMIDA</a></li>
-            <li><a href="" className='list-style'>SOUVENIRS</a></li>
-            <li><a href="" className='list-style'>ROPA</a></li>
+        <Link to="/category/food" className='list-style'>COMIDA</Link>
+        <Link to="/category/souvenir" className='list-style'>SOUVENIRS</Link>
+        <Link to="/category/cloth" className='list-style'>ROPA</Link>
             <li><CartWidget/></li>
         </ul>
     </div>

@@ -19,12 +19,12 @@ function App() {
         ></Route>
         
         <Route path='/category/:catID' element={
-         <ItemListContainer greeting={"Este es el mensaje de la prop greeting"}/>
+         <ItemListContainer />
 
         }/>
 
         <Route path='/item/:ID' element={
-          <ItemDetailContainer />
+          <ItemDetailContainer id={':ID'}/>
         } />
 
       </Routes>

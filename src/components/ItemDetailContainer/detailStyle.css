@@ -1,5 +1,17 @@
 .detail-container{
+    display: flex;
+    justify-content: center;
+}
+
+.detail-style{
+
     border: 1px solid black;
-    height: 560px;
-    width: 450px;
+    height: 350px;
+    width: 350px;
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+
 }

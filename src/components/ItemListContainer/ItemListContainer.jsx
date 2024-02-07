@@ -45,7 +45,7 @@ function ItemListContainer(props){
                                 <h3>{item.name}</h3>
                                 <p>${item.price}</p>
                                 {/* <Link><button className='btn-detail' onClick={ItemDetailContainer}>VER DETALLE</button></Link> */}
-                                <Link to="/item/{item.id}"><button className='btn-detail'>VER DETALLE</button></Link>
+                                <Link to={`/item/${item.id}`}><button className='btn-detail'>VER DETALLE</button></Link>
 
                             </div>
                         )
